@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from extensions import neo4j
+from app.extensions import neo4j
 
 app = Flask(__name__)
 neo4j.init_app(app)
